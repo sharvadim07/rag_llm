@@ -7,7 +7,11 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-llama-cpp-python = "^0.2.38"
+langchain = "^0.1.4"
+langchain-community = "^0.0.16"
+langchainhub = "^0.1.14"
+chromadb = "^0.4.22"
+bs4 = "^0.0.2"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -16,6 +20,7 @@ black = "^24.1.1"
 flake8 = "^7.0.0"
 isort = "^5.13.2"
 mypy = "^1.8.0"
+ipykernel = "^6.29.0"
 
 [build-system]
 requires = ["poetry-core"]
