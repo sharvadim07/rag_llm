@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "rag-llm"
+version = "0.1.0"
+description = "Testing of Retrieval Augmented Generation (RAG) with LLM"
+authors = ["Vadim <sharvadim07@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.6.0"
+black = "^24.1.1"
+flake8 = "^7.0.0"
+isort = "^5.13.2"
+mypy = "^1.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
