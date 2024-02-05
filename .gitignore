@@ -1,1 +1,5 @@
 mistral-7b-instruct-v0.2.Q4_0.gguf
+mistral-7b-openorca.Q8_0.gguf
+local_qdrant/
+__pycache__/
+.vscode/
